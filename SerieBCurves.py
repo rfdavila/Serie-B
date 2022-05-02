@@ -94,7 +94,7 @@ class SerieB():
                 
                 tabla.loc[i,'KQ']=tabla.loc[i,'KQ']+(delkq)
         
-        tabla['EFIC']=((tabla.J)*(tabla.KT))/(2*pi*tabla.KQ) #ARREGLAR EFICIENCIA
+        tabla['EFIC']=((tabla.J)*(tabla.KT))/(2*pi*tabla.KQ)
         return tabla
 
 
