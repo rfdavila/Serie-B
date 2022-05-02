@@ -21,7 +21,7 @@ class SerieB():
         
         Datos = [
             ['---PROPELLER---'],
-            ['Wageningen B-Screw'],
+            ['Curves Wageningen B-Screw'],
             ['P/D (0.5<P/D<1.4) :', self.Pfac, '[-]'],
             ['Ae/Ao (0.3<Ae/Ao<1.05) :', self.Afac, '[-]'],
             ['Z (number of Blades 2<z<7)', self.z, '[-]'],
@@ -111,7 +111,7 @@ tabla.plot(x="J",y=["KT","KQ"])
 plt.show()
 
 
-KQKT.Write_Datos()
+#KQKT.Write_Datos()
 
 
 
